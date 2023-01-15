@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='sqlmin',
-    version='1.0.0',
+    version='1.0.1',
     description='SQL Minifier',
     long_description="SQL Minifier",
     author='Enrique Rodriguez',
