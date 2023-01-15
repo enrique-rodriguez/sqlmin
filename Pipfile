@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 minisql = {editable = true, path = "."}
+build = "*"
+twine = "*"
 
 [dev-packages]
 
