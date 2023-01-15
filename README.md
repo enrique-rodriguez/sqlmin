@@ -13,7 +13,7 @@ Minifies sql files into a single line.
 Install sqlmin with pip
 
 ```bash
-  pip install sqlmin
+$ pip install sqlmin
 ```
 
 ### From source
@@ -21,16 +21,16 @@ Install sqlmin with pip
 Install sqlmin from repository.
 
 ```bash
-  git clone https://github.com/enrique-rodriguez/sqlmin.git
-  cd sqlmin
-  pip install .
+$ git clone https://github.com/enrique-rodriguez/sqlmin.git
+$ cd sqlmin
+$ pip install .
 ```
 ## Usage/Examples
 
 ### Reading SQL from a file
 
 ```bash
-sqlmin -f path/to/file.sql
+$ sqlmin -f path/to/file.sql
 ```
 
 ### Reading SQL from STDIN
