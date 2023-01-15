@@ -27,12 +27,6 @@ $ pip install .
 ```
 ## Usage/Examples
 
-### Reading SQL from a file
-
-```bash
-$ sqlmin -f path/to/file.sql
-```
-
 ### Reading SQL from STDIN
 
 ```bash
@@ -42,6 +36,12 @@ SELECT 'a', 'b', 'c'
 "
 DROP TABLE IF EXISTS schema.mytable;SELECT 'a','b','c';
 $
+```
+
+### Reading SQL from a file and Exporting the Results.
+
+```bash
+$ sqlmin -f path/to/file.sql > results.min.sql
 ```
 
 
