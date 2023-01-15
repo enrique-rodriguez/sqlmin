@@ -1,10 +1,3 @@
-__author__ = "Enrique Rodriguez"
-__version__ = "1.0.0"
-__maintainer__ = "Enrique Rodriguez"
-__email__ = "rodriguez.enrique.pr@gmail.com"
-__status__ = "Production"
-
-
 import re
 import os
 import sys
