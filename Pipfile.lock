@@ -1,0 +1,29 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "d8e22f6778f9a2ca1de06b6a6dbcf3e8594990e0cca387249d61d81188cb7063"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.10"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "minisql": {
+            "editable": true,
+            "path": "."
+        },
+        "sqlmin": {
+            "editable": true,
+            "path": "."
+        }
+    },
+    "develop": {}
+}
